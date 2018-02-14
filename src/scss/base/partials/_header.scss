@@ -1,0 +1,41 @@
+// Header area styles
+.header-area {
+    background-color: $primary-color;
+    padding: 25px 0;
+    a {
+        color: #fff;
+    }
+
+    // navigation
+    .main-navigation {
+        ul {
+            padding: 0;
+            list-style: none;
+            margin: 15px 0 0 0;
+            li {
+                float: left;
+            }
+        }
+        li a {
+            text-decoration: none;
+            font-weight: 400;
+            padding: 0 20px;
+            margin-right: 15px;
+            text-transform: uppercase;
+            font-size: 13px;
+            &:last-child {
+                margin-right: 0;
+            }
+            transition: $transition;
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+
+        ul a.btn-common {
+            text-decoration: none;
+            margin-left: 30px;
+        }
+    }
+
+}

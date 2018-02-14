@@ -1,0 +1,32 @@
+// Google Web Fonts
+@import url('https://fonts.googleapis.com/css?family=Dosis:500|Lato:400,700|Montserrat:300,400,600,700|Open+Sans:400,700');
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+    font-family: $primary-font;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+a {
+    text-decoration: none;
+    transition: $transition;
+    &:hover {
+        text-decoration: none;
+    }
+}
+h2 {
+    font-size: 33px;
+    font-weight: 500;
+}
+h3 {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+body {
+    font-family: $primary-font;
+    font-weight: 400;
+}

@@ -1,0 +1,27 @@
+// Colors
+$primary-color: #d54b38;
+$primary-color-dark: darken( $primary-color , 5% );
+$primary-color-light: lighten( $primary-color , 1% );
+$secondary-color: #61bd6d;
+$secondary-color-dark: darken( $secondary-color , 5% );
+$secondary-color-light: lighten( $secondary-color , 5% );
+$tertiary-color: #06ccbc;
+
+
+$dark-blue-bg: #2c8abe;
+$dark-btn-bg: #4599d3;
+$light-btn-bg: #fdfdfd;
+$dark-black-bg: #2c324c;
+$light-bg: #eefaff;
+
+$primary-dark-text: #404040;
+$secondary-dark-text: #808080;
+
+// Font Family
+$primary-font: 'Montserrat', sans-serif;
+$secondary-font: 'Open Sans', sans-serif;
+$tertiary-font: 'Lato', sans-serif;
+$quaternary-font: 'Dosis', sans-serif;
+
+// Transition
+$transition: all 0.5s ease;

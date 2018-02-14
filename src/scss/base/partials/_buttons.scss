@@ -1,0 +1,28 @@
+// Button Styles
+.btn-common {
+    background-color: $light-btn-bg;
+    color: #333;
+    border-radius: 4px;
+    padding: 10px 35px;
+    color: $primary-color;
+    font-weight: 300;
+    text-transform: uppercase;
+    border: 0;
+    text-decoration: none;
+    transition: $transition;
+    &:hover {
+        color: $primary-color;
+    }
+}
+
+.btn-quote {
+    background-color: $secondary-color;
+    font-family: $secondary-font;
+    font-weight: 700;
+    color: #fff;
+    transition: $transition;
+    &:hover {
+        background-color: $secondary-color-dark;
+        color: #fff;
+    }
+}

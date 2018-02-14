@@ -1,0 +1,101 @@
+//  Hero Area sytles
+.hero-section {
+    position: relative;
+    background-color: $primary-color;
+    padding: 60px 0;
+    display: flex;
+
+    &::before {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-image: url(../images/hero-bg.png);
+        top: 0;
+        left: 0;
+        background-repeat: no-repeat;
+    }
+}
+
+// Hero text
+.hero-text {
+    color: #fff;
+    h1 {
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+    p {
+        font-weight: 300;
+        font-size: 17px;
+    }
+    .btn-common {
+        font-family: $secondary-font;
+        font-size: 14px;
+        padding: 10px 30px;
+        margin-top: 10px;
+        display: inline-block;
+        letter-spacing: 0.1rem;
+        transition: $transition;
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+}
+
+// Hero image
+.hero-image {
+    img {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+// Scroll icon
+.scroll-down {
+    text-align: center;
+    margin-top: 100px;
+
+    p {
+        color: #fff;
+        margin-top: 20px;
+        margin-bottom: 0;
+        font-weight: 300;
+    }
+}
+
+.scroll-downs {
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+
+  width :34px;
+  height: 55px;
+}
+.mousey {
+  width: 3px;
+  padding: 10px 15px;
+  height: 35px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+.scroller {
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: #fff;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+}
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(15px); opacity: 0;}
+}
