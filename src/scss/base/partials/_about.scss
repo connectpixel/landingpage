@@ -1,0 +1,58 @@
+// About us area
+
+.about-us-section {
+    position: relative;
+    padding-top: 168px;
+    background-image: url(../images/about-us-bg.png);
+    background-size: cover;
+    background-position: center;
+
+    &::before {
+        position: absolute;
+        content: "";
+        width: 231px;
+        height: 234px;
+        background-image: url(../images/about-bg.png);
+        bottom: 30px;
+        right: 100px;
+        opacity: 0.2;
+        background-repeat: no-repeat;
+    }
+
+    // section title
+    .section-title {
+        margin-bottom: 50px;
+        h2 {
+            color: #ffffff;
+            text-align: left;
+        }
+    }
+
+    // about us text
+    .about-us-text {
+        p {
+            font-weight: 300;
+            line-height: 1.8;
+            color: #fff;
+        }
+        .btn-quote {
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .image {
+            margin-top: 50px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    // About images
+    .about-us-image {
+        img {
+            width: 100%;
+        }
+    }
+
+
+}

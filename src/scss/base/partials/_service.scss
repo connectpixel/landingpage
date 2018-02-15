@@ -4,10 +4,12 @@
     &::before {
         position: absolute;
         content: "";
-        width: 100%;
-        height: 100%;
+        width: 231px;
+        height: 234px;
         background-image: url(../images/service-bg.png);
+        left: 30px;
         top: 30px;
+        opacity: 0.5;
         background-repeat: no-repeat;
     }
 }
@@ -61,7 +63,7 @@
         background-color: darken( #06ccbc , 5% );
     }
 }
-.dark-blue-bg {
+.blue-bg {
     background-color: #21759b;
     &:hover {
         background-color: darken( #21759b , 5% );
