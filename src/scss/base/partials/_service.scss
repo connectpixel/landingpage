@@ -1,0 +1,81 @@
+// Service section
+.service-section {
+    position: relative;
+    &::before {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-image: url(../images/service-bg.png);
+        top: 30px;
+        background-repeat: no-repeat;
+    }
+}
+.mt-50 {
+    margin-top: 100px;
+}
+.single-service {
+    height: 260px;
+    background: #dddddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    color: #ffffff;
+    text-align: center;
+    transition: $transition;
+    img {
+        height: 52px;
+    }
+    h3 {
+        margin-top: 15px;
+        margin-bottom: 0;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+// BG colors
+.gray-bg {
+    background-color: #f2f2f2;
+    h3 {
+        color: $primary-dark-text;
+    }
+    &:hover {
+        background-color: darken( #f2f2f2 , 5% );
+    }
+}
+.dark-gray-bg {
+    background-color: #6c7a89;
+    &:hover {
+        background-color: darken( #6c7a89 , 5% );
+    }
+}
+.aqua-bg {
+    background-color: #06ccbc;
+    &:hover {
+        background-color: darken( #06ccbc , 5% );
+    }
+}
+.dark-blue-bg {
+    background-color: #21759b;
+    &:hover {
+        background-color: darken( #21759b , 5% );
+    }
+}
+.red-bg {
+    background-color: $primary-color;
+    &:hover {
+        background-color: $primary-color-dark;
+    }
+}
+.dark-blue-bg {
+    background-color: #354260;
+    &:hover {
+        background-color: darken( #354260 , 5% );
+    }
+}

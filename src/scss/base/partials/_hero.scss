@@ -4,7 +4,9 @@
     background-color: $primary-color;
     padding: 60px 0;
     display: flex;
-
+    .col-sm-6 {
+        padding: 0;
+    }
     &::before {
         position: absolute;
         content: "";
@@ -21,12 +23,12 @@
 .hero-text {
     color: #fff;
     h1 {
-        margin-bottom: 10px;
+        margin-bottom: 15px;
         text-transform: uppercase;
     }
     p {
         font-weight: 300;
-        font-size: 17px;
+        font-size: 18px;
     }
     .btn-common {
         font-family: $secondary-font;

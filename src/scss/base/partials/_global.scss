@@ -1,0 +1,18 @@
+// Global Styles
+.section-padding {
+    padding: 100px 0;
+}
+.section-title {
+    text-align: center;
+    h2 {
+        text-transform: uppercase;
+        font-weight: 700;
+        color: $primary-dark-text;
+        margin-bottom: 15px;
+    }
+    p {
+        margin-bottom: 0;
+        color: $secondary-dark-text;
+
+    }
+}
