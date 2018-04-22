@@ -1,0 +1,63 @@
+// Stat section style
+.stat-section {
+	background-color: #2c324c;
+	position: relative;
+    &::before {
+	    position: absolute;
+	    content: "";
+	    width: 163px;
+	    height: 174px;
+	    background-image: url(../images/stat-bg.png);
+	    top: 0;
+	    right: 0;
+	    opacity: 1;
+	    background-repeat: no-repeat;
+    }
+	// stat image
+	.stat-image {
+		img {
+			width: 100%;
+		}
+	}
+
+	// stat contents
+	.stat-contents {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.single-text {
+		margin-bottom: 50px;
+		padding-bottom: 40px;
+		border-bottom: 1px solid #464b62;
+		text-align: center;
+		color: #fff;
+		h3 {
+			font-size: 28px;
+			font-weight: 700;
+			text-transform: uppercase;
+			margin-bottom: 5px;
+		}
+		span {
+			text-transform: uppercase;
+			font-weight: 700;
+		}
+		&:last-child {
+			margin-bottom: 0;
+			padding-bottom: 0;
+			border-bottom: none;
+		}
+	}
+	// Experience
+	.single-text.experience {
+		color: #2ad2bb;
+	}
+	// Project done
+	.single-text.project-done {
+		color: #ff7059;
+	}
+	// Happy Client
+	.single-text.happy-client {
+		color: #82bfde;
+	}
+}

@@ -1,0 +1,24 @@
+// CTA Section
+.cta-section {
+	background: $primary-color;
+	.row {
+		height: 130px;
+	}
+	
+	.cta-text {
+		h2 {
+			color: #fff;
+			margin: 0;
+			font-size: 32px;
+			text-transform: uppercase;
+			font-weight: 700;
+			span {
+				color: $primary-color;
+				background: #ececec;
+				padding: 5px 10px;
+				border-radius: 5px;
+				font-size: 30px;
+			}
+		}
+	}
+}

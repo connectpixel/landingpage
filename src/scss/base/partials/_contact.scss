@@ -1,0 +1,45 @@
+// Contact Us section
+.contact-section {
+	position: relative;
+	background-color: #1b4686;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	.section-title {
+		h2 {
+			color: #ffffff;
+		}
+	}
+	.contact-form-wrapper {
+		margin-top: 50px;
+	}
+
+	#contactForm {
+		.form-control {
+			background-color: transparent;
+			color: #ffffff;
+			text-transform: uppercase;
+			font-size: 14px;
+			&::placeholder {
+				color: #ffffff;
+			}
+			&:focus {
+			    box-shadow: none;
+			}
+		}
+		input[type="text"].form-control , input[type="email"].form-control , input[type="number"].form-control {
+			height: 50px;
+		}
+		.btn-common {
+			display: block;
+			margin-top:20px;
+			text-align: center;
+			background-color: #4599d3;
+			color: #fff;
+			font-weight: 600;
+			&:hover {
+				opacity: 0.8;
+			}
+		}
+	}
+}
